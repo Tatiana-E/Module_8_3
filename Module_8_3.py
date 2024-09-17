@@ -1,8 +1,8 @@
 class Car:
-    def __init__(self, model: str, vin: int, __numbers: str):
+       def __init__(self, model: str,__vin: int, __numbers: str):
         self.model = model
-        self.__vin = vin
-        self.__is_valid_vin(vin)
+        self.__vin = __vin
+        self.__is_valid_vin(__vin)
         self.__numbers = __numbers
         self.__is_valid_numbers(__numbers)
 
